@@ -1,0 +1,236 @@
+@import "config.less";
+@import "font.less";
+
+header {
+    .wrapper {
+        position: relative;
+        background: @dark_blue;
+        max-height: 88px;
+        width: 100%;
+
+        .menu_top {
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                background: @white;
+                box-shadow: 3px 5.196px 6px rgba(0, 0, 0, 0.15);
+
+                img {
+                    padding: 19px 35px 26px 31px;
+                }
+            }
+
+            .links {
+                margin-top: 43px;
+                max-width: 745px;
+                width: 100%;
+
+                .my_links {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 53px;
+
+                    li {
+                        display: flex;
+                        justify-content: space-around;
+                        color: @white;
+                        font-size: @menu;
+                        font-weight: 200;
+                        font-family: 'Nunito';
+                    }
+                }
+                .disapear_links {
+                    display: none;
+                }
+            }
+        }
+
+        .search {
+            position: absolute;
+            right: 22px;
+            top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 100px 0 0 100px;
+            z-index: 10;
+
+            .search_container {
+                right: 85px;
+                width: 0;
+
+                input {
+                    transition: 0.7s ease;
+                    height: 100%;
+                    min-height: 40px;
+                    background: @dark_blue;
+                    width: 0;
+                    color: @white;
+                    border-bottom: 1px solid @white;
+
+                    &::placeholder {
+                        color: @white;
+                        font-family: 'Nunito';
+                        font-weight: 300;
+                    }
+                }
+
+                .show_search_input {
+                    width: 95%;
+                }
+            }
+
+            .show_container {
+                width: 95%;
+                min-width: 500px;
+            }
+        }
+    }
+}
+
+.right_panel {
+    position: absolute;
+    top: 88px;
+    left: -163px;
+    z-index: 5;
+    transition: 0.5s ease-out 0s;
+    height: 1252px;
+
+    &:hover {
+        left: 0;
+
+        .arrow {
+            img {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    .arrow {
+        height: 100%;
+        box-shadow: 7px 0 6px rgba(0, 0, 0, 0.15);
+        background: @white;
+        padding: 0 15px 0 19px;
+        text-align: center;
+        position: relative;
+        left: 163px;
+
+        img {
+            transform: rotate(-180deg);
+            margin-top: 465px;
+        }
+    }
+
+    .content {
+        width: 113px;
+        padding-left: 50px;
+        height: 100%;
+        background: @white;
+        position: absolute;
+
+        .side_menu_part {
+            padding: 22px 0;
+            border-bottom: 3px dotted @dark_blue;
+
+            &:first-of-type {
+                padding-top: 68px;
+            }
+
+            h5,
+            li {
+                font-size: @menu;
+                color: @dark_blue;
+                font-weight: 300px;
+                line-height: @menu + 16px;
+            }
+        }
+
+        .social {
+            padding-top: 27px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            img:first-of-type {
+                margin-bottom: 22px;
+            }
+        }
+    }
+}
+
+main {
+    .content {
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 45px;
+        margin: 98px auto 0 auto;
+        border-bottom: 3px dotted @dark_blue;
+
+        h1 {
+            font-size: @size_h1;
+            color: @dark_blue;
+            font-weight: 300;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+    }
+
+    .about_company {
+        max-width: 1000px;
+        width: 100%;
+        margin: 52px auto 0 auto;
+
+        h3 {
+            font-size: @base_font_size;
+            color: @broken_black;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            max-width: 1000px;
+            width: 100%;
+            max-height: 855px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            div {
+                max-width: 480px;
+                width: 100%;
+
+                h4 {
+                    margin-top: 20px;
+                    text-transform: uppercase;
+                    color: @broken_black;
+                }
+
+                p {
+                    text-align: justify;
+                    color: @broken_black;
+                    font-size: @base_font_size;
+                    line-height: @base_font_size + 4px;
+                }
+
+                .margin_top {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 87px;
+    background: @dark_blue;
+    height: 68px;
+    width: 100%;
+}

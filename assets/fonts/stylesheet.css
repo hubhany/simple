@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraLightItalic.eot');
+    src: url('Nunito-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraLightItalic.woff2') format('woff2'),
+        url('Nunito-ExtraLightItalic.woff') format('woff'),
+        url('Nunito-ExtraLightItalic.ttf') format('truetype'),
+        url('Nunito-ExtraLightItalic.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraLight.eot');
+    src: url('Nunito-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraLight.woff2') format('woff2'),
+        url('Nunito-ExtraLight.woff') format('woff'),
+        url('Nunito-ExtraLight.ttf') format('truetype'),
+        url('Nunito-ExtraLight.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.eot');
+    src: url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff'),
+        url('Poppins-Regular.ttf') format('truetype'),
+        url('Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.eot');
+    src: url('Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff'),
+        url('Poppins-Bold.ttf') format('truetype'),
+        url('Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.eot');
+    src: url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff'),
+        url('Poppins-SemiBold.ttf') format('truetype'),
+        url('Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-LightItalic.eot');
+    src: url('Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-LightItalic.woff2') format('woff2'),
+        url('Nunito-LightItalic.woff') format('woff'),
+        url('Nunito-LightItalic.ttf') format('truetype'),
+        url('Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Regular.eot');
+    src: url('Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Regular.woff2') format('woff2'),
+        url('Nunito-Regular.woff') format('woff'),
+        url('Nunito-Regular.ttf') format('truetype'),
+        url('Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.eot');
+    src: url('Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff'),
+        url('Poppins-Thin.ttf') format('truetype'),
+        url('Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLight.eot');
+    src: url('Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraLight.woff2') format('woff2'),
+        url('Poppins-ExtraLight.woff') format('woff'),
+        url('Poppins-ExtraLight.ttf') format('truetype'),
+        url('Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraLight_1.eot');
+    src: url('Nunito-ExtraLight_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraLight_1.woff2') format('woff2'),
+        url('Nunito-ExtraLight_1.woff') format('woff'),
+        url('Nunito-ExtraLight_1.ttf') format('truetype'),
+        url('Nunito-ExtraLight_1.svg#Nunito-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraLightItalic_1.eot');
+    src: url('Nunito-ExtraLightItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraLightItalic_1.woff2') format('woff2'),
+        url('Nunito-ExtraLightItalic_1.woff') format('woff'),
+        url('Nunito-ExtraLightItalic_1.ttf') format('truetype'),
+        url('Nunito-ExtraLightItalic_1.svg#Nunito-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-BoldItalic.eot');
+    src: url('Nunito-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-BoldItalic.woff2') format('woff2'),
+        url('Nunito-BoldItalic.woff') format('woff'),
+        url('Nunito-BoldItalic.ttf') format('truetype'),
+        url('Nunito-BoldItalic.svg#Nunito-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Bold.eot');
+    src: url('Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Bold.woff2') format('woff2'),
+        url('Nunito-Bold.woff') format('woff'),
+        url('Nunito-Bold.ttf') format('truetype'),
+        url('Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-LightItalic.eot');
+    src: url('Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-LightItalic.woff2') format('woff2'),
+        url('Poppins-LightItalic.woff') format('woff'),
+        url('Poppins-LightItalic.ttf') format('truetype'),
+        url('Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Black.eot');
+    src: url('Nunito-Black.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Black.woff2') format('woff2'),
+        url('Nunito-Black.woff') format('woff'),
+        url('Nunito-Black.ttf') format('truetype'),
+        url('Nunito-Black.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Regular_1.eot');
+    src: url('Nunito-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Regular_1.woff2') format('woff2'),
+        url('Nunito-Regular_1.woff') format('woff'),
+        url('Nunito-Regular_1.ttf') format('truetype'),
+        url('Nunito-Regular_1.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraBold.eot');
+    src: url('Nunito-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraBold.woff2') format('woff2'),
+        url('Nunito-ExtraBold.woff') format('woff'),
+        url('Nunito-ExtraBold.ttf') format('truetype'),
+        url('Nunito-ExtraBold.svg#Nunito-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBold.eot');
+    src: url('Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraBold.woff2') format('woff2'),
+        url('Poppins-ExtraBold.woff') format('woff'),
+        url('Poppins-ExtraBold.ttf') format('truetype'),
+        url('Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBoldItalic.eot');
+    src: url('Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('Poppins-ExtraBoldItalic.ttf') format('truetype'),
+        url('Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLightItalic.eot');
+    src: url('Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('Poppins-ExtraLightItalic.woff') format('woff'),
+        url('Poppins-ExtraLightItalic.ttf') format('truetype'),
+        url('Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Black_1.eot');
+    src: url('Nunito-Black_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Black_1.woff2') format('woff2'),
+        url('Nunito-Black_1.woff') format('woff'),
+        url('Nunito-Black_1.ttf') format('truetype'),
+        url('Nunito-Black_1.svg#Nunito-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-MediumItalic.eot');
+    src: url('Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-MediumItalic.woff2') format('woff2'),
+        url('Poppins-MediumItalic.woff') format('woff'),
+        url('Poppins-MediumItalic.ttf') format('truetype'),
+        url('Poppins-MediumItalic.svg#Poppins-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-SemiBoldItalic.eot');
+    src: url('Nunito-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-SemiBoldItalic.woff2') format('woff2'),
+        url('Nunito-SemiBoldItalic.woff') format('woff'),
+        url('Nunito-SemiBoldItalic.ttf') format('truetype'),
+        url('Nunito-SemiBoldItalic.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Light.eot');
+    src: url('Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Light.woff2') format('woff2'),
+        url('Nunito-Light.woff') format('woff'),
+        url('Nunito-Light.ttf') format('truetype'),
+        url('Nunito-Light.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBoldItalic.eot');
+    src: url('Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('Poppins-SemiBoldItalic.woff') format('woff'),
+        url('Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-LightItalic_1.eot');
+    src: url('Nunito-LightItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-LightItalic_1.woff2') format('woff2'),
+        url('Nunito-LightItalic_1.woff') format('woff'),
+        url('Nunito-LightItalic_1.ttf') format('truetype'),
+        url('Nunito-LightItalic_1.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-SemiBoldItalic_1.eot');
+    src: url('Nunito-SemiBoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-SemiBoldItalic_1.woff2') format('woff2'),
+        url('Nunito-SemiBoldItalic_1.woff') format('woff'),
+        url('Nunito-SemiBoldItalic_1.ttf') format('truetype'),
+        url('Nunito-SemiBoldItalic_1.svg#Nunito-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraBoldItalic.eot');
+    src: url('Nunito-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraBoldItalic.woff2') format('woff2'),
+        url('Nunito-ExtraBoldItalic.woff') format('woff'),
+        url('Nunito-ExtraBoldItalic.ttf') format('truetype'),
+        url('Nunito-ExtraBoldItalic.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Italic.eot');
+    src: url('Nunito-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Italic.woff2') format('woff2'),
+        url('Nunito-Italic.woff') format('woff'),
+        url('Nunito-Italic.ttf') format('truetype'),
+        url('Nunito-Italic.svg#Nunito-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.eot');
+    src: url('Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff'),
+        url('Poppins-Medium.ttf') format('truetype'),
+        url('Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Italic_1.eot');
+    src: url('Nunito-Italic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Italic_1.woff2') format('woff2'),
+        url('Nunito-Italic_1.woff') format('woff'),
+        url('Nunito-Italic_1.ttf') format('truetype'),
+        url('Nunito-Italic_1.svg#Nunito-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-SemiBold.eot');
+    src: url('Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-SemiBold.woff2') format('woff2'),
+        url('Nunito-SemiBold.woff') format('woff'),
+        url('Nunito-SemiBold.ttf') format('truetype'),
+        url('Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-SemiBold_1.eot');
+    src: url('Nunito-SemiBold_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-SemiBold_1.woff2') format('woff2'),
+        url('Nunito-SemiBold_1.woff') format('woff'),
+        url('Nunito-SemiBold_1.ttf') format('truetype'),
+        url('Nunito-SemiBold_1.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-BoldItalic.eot');
+    src: url('Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-BoldItalic.woff2') format('woff2'),
+        url('Poppins-BoldItalic.woff') format('woff'),
+        url('Poppins-BoldItalic.ttf') format('truetype'),
+        url('Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Italic.eot');
+    src: url('Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Italic.woff2') format('woff2'),
+        url('Poppins-Italic.woff') format('woff'),
+        url('Poppins-Italic.ttf') format('truetype'),
+        url('Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-BlackItalic.eot');
+    src: url('Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-BlackItalic.woff2') format('woff2'),
+        url('Poppins-BlackItalic.woff') format('woff'),
+        url('Poppins-BlackItalic.ttf') format('truetype'),
+        url('Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Bold_1.eot');
+    src: url('Nunito-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Bold_1.woff2') format('woff2'),
+        url('Nunito-Bold_1.woff') format('woff'),
+        url('Nunito-Bold_1.ttf') format('truetype'),
+        url('Nunito-Bold_1.svg#Nunito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraBold_1.eot');
+    src: url('Nunito-ExtraBold_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraBold_1.woff2') format('woff2'),
+        url('Nunito-ExtraBold_1.woff') format('woff'),
+        url('Nunito-ExtraBold_1.ttf') format('truetype'),
+        url('Nunito-ExtraBold_1.svg#Nunito-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ThinItalic.eot');
+    src: url('Poppins-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ThinItalic.woff2') format('woff2'),
+        url('Poppins-ThinItalic.woff') format('woff'),
+        url('Poppins-ThinItalic.ttf') format('truetype'),
+        url('Poppins-ThinItalic.svg#Poppins-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-BlackItalic.eot');
+    src: url('Nunito-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-BlackItalic.woff2') format('woff2'),
+        url('Nunito-BlackItalic.woff') format('woff'),
+        url('Nunito-BlackItalic.ttf') format('truetype'),
+        url('Nunito-BlackItalic.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-Light_1.eot');
+    src: url('Nunito-Light_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-Light_1.woff2') format('woff2'),
+        url('Nunito-Light_1.woff') format('woff'),
+        url('Nunito-Light_1.ttf') format('truetype'),
+        url('Nunito-Light_1.svg#Nunito-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-BlackItalic_1.eot');
+    src: url('Nunito-BlackItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-BlackItalic_1.woff2') format('woff2'),
+        url('Nunito-BlackItalic_1.woff') format('woff'),
+        url('Nunito-BlackItalic_1.ttf') format('truetype'),
+        url('Nunito-BlackItalic_1.svg#Nunito-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Black.eot');
+    src: url('Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Black.woff2') format('woff2'),
+        url('Poppins-Black.woff') format('woff'),
+        url('Poppins-Black.ttf') format('truetype'),
+        url('Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.eot');
+    src: url('Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff'),
+        url('Poppins-Light.ttf') format('truetype'),
+        url('Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-ExtraBoldItalic_1.eot');
+    src: url('Nunito-ExtraBoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-ExtraBoldItalic_1.woff2') format('woff2'),
+        url('Nunito-ExtraBoldItalic_1.woff') format('woff'),
+        url('Nunito-ExtraBoldItalic_1.ttf') format('truetype'),
+        url('Nunito-ExtraBoldItalic_1.svg#Nunito-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('Nunito-BoldItalic_1.eot');
+    src: url('Nunito-BoldItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-BoldItalic_1.woff2') format('woff2'),
+        url('Nunito-BoldItalic_1.woff') format('woff'),
+        url('Nunito-BoldItalic_1.ttf') format('truetype'),
+        url('Nunito-BoldItalic_1.svg#Nunito-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
